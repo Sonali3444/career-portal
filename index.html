@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Career Sphere</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="assets/logo.png" alt="Career Sphere Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+
+        <!-- ✅ Changed Dropdown into Select -->
+        <li>
+          <select class="sectors-dropdown" onchange="location = this.value;">
+            <option value="#">Select Sector</option>
+            <option value="#webdev">Web Development</option>
+            <option value="#data-analyst">Data Analyst</option>
+            <option value="#data-scientist">Data Scientist</option>
+            <option value="#cybersecurity">Cybersecurity</option>
+            <option value="#uiux">UI/UX Design</option>
+            <option value="#finance">Finance & Accounting</option>
+            <option value="#marketing">Digital Marketing</option>
+            <option value="#hr">Human Resources</option>
+          </select>
+        </li>
+        <!-- ✅ End of Change -->
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Career Sphere</h1>
+      <p>"Empowering Careers, Building Futures"</p>
+      <p>Career Sphere connects job seekers with the right opportunities and guides them toward a brighter future.</p>
+      <div class="hero-buttons">
+        <a href="#careers" class="btn">Explore Jobs</a>
+        <a href="#about" class="btn-outline">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="assets/hero.avif" alt="Career Sphere Hero">
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features">
+    <h2>Why Choose Career Sphere?</h2>
+    <p>We connect talent with trusted opportunities and guide career growth.</p>
+    <div class="feature-boxes">
+      <div class="feature">
+        <img src="assets/feature1.avif" alt="Feature 1">
+        <h3>Trusted Employers</h3>
+        <p>Connect with verified companies and organizations worldwide.</p>
+      </div>
+      <div class="feature">
+        <img src="assets/feature2.avif" alt="Feature 2">
+        <h3>Professional Growth</h3>
+        <p>Opportunities across multiple sectors for career advancement.</p>
+      </div>
+      <div class="feature">
+        <img src="assets/feature3.avif" alt="Feature 3">
+        <h3>Guidance & Support</h3>
+        <p>Get resources, blogs, and expert mentorship to succeed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Info Section -->
+  <section class="info">
+    <div class="info-text">
+      <h2>Career Consultancy You Can Trust</h2>
+      <p>We are committed to guiding you with the right opportunities and resources to grow your career.</p>
+      <ul>
+        <li>✔ Verified job postings and employers.</li>
+        <li>✔ Career guidance and mentorship programs.</li>
+        <li>✔ Blogs and resources to upskill and stay ahead.</li>
+      </ul>
+    </div>
+    <div class="info-image">
+      <img src="assets/info.avif" alt="Career Growth">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Career Sphere. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
